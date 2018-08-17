@@ -1,0 +1,20 @@
+package com.bqt.test;
+
+option java_package = "com.bqt.test.model";
+option java_outer_classname = "UserProtos";
+
+message User {
+    required int32 id = 1;
+    required string firstName = 2;
+    required string lastName = 3;
+
+    optional int32 level = 4 [default = 0];
+
+    message Monster {
+        required int32 id = 1;
+        required string name = 2;
+        optional string type = 3 [default = "n/a"];
+    }
+
+    repeated Monster monsters = 5;
+}

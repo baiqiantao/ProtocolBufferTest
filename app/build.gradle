@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.bqt.test2"
+        applicationId "com.bqt.test.pb"
         minSdkVersion 17
         targetSdkVersion 27
         versionCode 1
@@ -25,4 +25,6 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    implementation 'com.google.protobuf:protobuf-java:3.6.1'//protobuf
 }
