@@ -26,5 +26,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
-    implementation 'com.google.protobuf:protobuf-java:3.6.1'//protobuf
+    implementation 'com.google.code.gson:gson:2.8.1'
+    //implementation 'com.google.protobuf:protobuf-java:3.6.1'//protobuf
+    implementation 'com.google.protobuf:protobuf-lite:3.0.1'//protobuf lite
 }
